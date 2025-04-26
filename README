@@ -6,8 +6,6 @@ Given a list of coin denominations and a target amount, it calculates:
 - The minimum number of coins needed.
 - Which coins are used to achieve that amount.
 
----
-
 ## How It Works
 
 - The algorithm filters out coin denominations larger than the target amount.
@@ -17,14 +15,11 @@ Given a list of coin denominations and a target amount, it calculates:
 
 > Note: This ensures the minimum number of coins is used.
 
----
-
 ## Example
 
 ```python
 coins = [2, 5, 10, 20, 50, 100]
 change = 53
-
 result = get_coin_change(coins, change)
 print("result: ", result)
-
+```
